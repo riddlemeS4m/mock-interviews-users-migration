@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\sp2025-mock-interviews\sp2023-mis421-mockinterviews\sp2023-mis421-mockinterviews\sp2023-mis421-mockinterviews.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.*" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.*" />
+    <PackageReference Include="Npgsql" Version="6.0.*" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.*" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
